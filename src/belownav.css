@@ -1,0 +1,122 @@
+
+
+
+.belownav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid #697d97 ; */
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #697d97 ;
+    width: 230px;
+    font-size: 12px;
+    /* letter-spacing: 1px; */
+    background-color: #eff1f5;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #697d97 ;
+    width: 100px
+}
+
+.eventmode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #697d97 ;
+    width: 150px
+}
+
+.input{
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #697d97 ;
+}
+
+.input>input{
+    border: none;
+}
+
+.filter-sort{
+    background-color: #f6f8fc;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #697d97 ;
+}
+
+.product{
+    
+     border-radius: 10px;  
+    background-color: white;
+
+    height:40px;
+    padding-left: 10px;
+    padding-right: 10px; 
+ 
+}
+
+.dateyear{
+    border: 1px solid #697d97 ;
+    height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 10px;
+   padding-right: 10px; 
+   border-radius: 10px;
+   /* background-color: white; */
+}
+.dateyear input{
+    text-decoration: none;
+    border: none;
+    background-color: #eff1f5;
+}
+.fee{
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.fee>p:nth-child(2){
+   
+    font-size: 12px;
+}
+.fee>p:last-child(){
+ 
+    font-size: 12px;
+}
+
+.eventmode{
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.eventmode >p:nth-child(2){
+    font-size: 12px;
+}
+.eventmode> p:last-child{
+    font-size: 12px;
+}
+.eventmode>p:first-child{
+    font-size: 16px;
+}

@@ -1,0 +1,19 @@
+/* src/App.css */
+.app-container {
+  display: flex;
+  
+  width: 100%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.right-side {
+  flex: 2;
+  padding: 20px;
+}
